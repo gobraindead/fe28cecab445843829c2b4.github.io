@@ -5,7 +5,9 @@ var ROFLMAO = [
 "boutta make my exit booyah ~not /id/1un4r",
 "i'm living in your head rent free right now ~/id/1un4r",
 "gonna drain my gang uh oh ~guy who got kick centraled",
-"i can rank you guys up ~bottom fragger"
+"i can rank you guys up ~bottom fragger",
+"you're built like twin towers, oh wait ~/id/akmsda",
+"dude i'm gonna move to michigan and fuck a dog or something ~/id/akmsda"
 ];
 var OMALFOR = [
 "",
@@ -13,10 +15,12 @@ var OMALFOR = [
 "https://steamcommunity.com/id/1un4r",
 "https://steamcommunity.com/id/1un4r",
 "",
-""
+"",
+"https://steamcommunity.com/id/akmsda",
+"https://steamcommunity.com/id/akmsda"
 ];
 setTimeout(function(){
-var yeah = Math.floor(Math.random()*6);
+var yeah = Math.floor(Math.random()*8);
 document.getElementById("title").innerHTML=ROFLMAO[yeah];
 if (OMALFOR[yeah]!=="") {
 document.getElementById("hre").href=OMALFOR[yeah];
